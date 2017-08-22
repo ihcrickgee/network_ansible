@@ -1,7 +1,7 @@
 ---
 - name: Show prechange status
   nxos command:
-    host: '{{ inventory_hostname}}'
+    host: '{{ inventory_hostname }}'
     commands:
       - show version
       - show ip interface brief
